@@ -1,0 +1,21 @@
+class LeastCommonMultiple {
+	public static void main(String args[]) {
+		int numberA = 4;
+		int numberB = 7;
+		//Switches numbers if a is larger than b.
+		if (numberA > numberB) {
+			int temp = numberB;
+			numberB = numberA;
+			numberA = temp;
+			//System.out.println(a + "," + b);
+		}
+		int largestProduct = numberB * numberA;
+		multiplesOfA = new int[largestProduct];
+		multiplesOfB = new int[largestProduct];
+		for (int i = 1; i < largestProduct; i++) {
+			multiplesOfA[i] = i * numberA;
+		System.out.println(multiplesOfA);
+		}
+		//int lcm = ((abs(b))/gcd(b,a)) * a;
+	}
+}
